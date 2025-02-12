@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|c:\\users\\act-student\\source\\repos\\plascard\\plascard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|solutionrelative:plascard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|c:\\users\\act-student\\source\\repos\\plascard\\mvvm\\views\\qnaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|solutionrelative:mvvm\\views\\qnaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|c:\\users\\act-student\\source\\repos\\plascard\\mvvm\\viewmodels\\qnaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|solutionrelative:mvvm\\viewmodels\\qnaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|c:\\users\\act-student\\source\\repos\\plascard\\mvvm\\models\\qna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05AC47B6-6FF2-4B6E-8CB2-BBC20D98D994}|plascard.csproj|solutionrelative:mvvm\\models\\qna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QnAView.xaml",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\MVVM\\Views\\QnAView.xaml",
+              "RelativeDocumentMoniker": "MVVM\\Views\\QnAView.xaml",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\MVVM\\Views\\QnAView.xaml",
+              "RelativeToolTip": "MVVM\\Views\\QnAView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T07:54:39.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QnAViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\MVVM\\ViewModels\\QnAViewModel.cs",
+              "RelativeDocumentMoniker": "MVVM\\ViewModels\\QnAViewModel.cs",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\MVVM\\ViewModels\\QnAViewModel.cs",
+              "RelativeToolTip": "MVVM\\ViewModels\\QnAViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:54:10.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QnA.cs",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\MVVM\\Models\\QnA.cs",
+              "RelativeDocumentMoniker": "MVVM\\Models\\QnA.cs",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\MVVM\\Models\\QnA.cs",
+              "RelativeToolTip": "MVVM\\Models\\QnA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:51:33.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "plascard",
+              "DocumentMoniker": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\plascard.csproj",
+              "RelativeDocumentMoniker": "plascard.csproj",
+              "ToolTip": "C:\\Users\\ACT-STUDENT\\source\\repos\\plascard\\plascard.csproj*",
+              "RelativeToolTip": "plascard.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T07:49:58.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="plascard.MVVM.Views.QnAView"
-             Title="QnAView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="plascard.MVVM.Views.QnAView"
+    Title="QnAView">
+
+    <Grid RowDefinitions="*, Auto">
+        <!-- Main Content -->
+        <Frame Grid.Row="0" Padding="20" CornerRadius="10" BackgroundColor="LightBlue">
+            <StackLayout Spacing="20">
+                <!-- Tappable Card (integrated image & text) -->
+                <Frame x:Name="CardFrame" Padding="15" CornerRadius="10" HasShadow="True"
+                       BackgroundColor="{Binding CardBackgroundColor}">
+                    <StackLayout Spacing="10">
+                        <!-- Integrated Image (only shown if available) -->
+                        <Image Source="{Binding CurrentFlashcard.ImagePath}"
+                               IsVisible="{Binding HasImage}"
+                               HeightRequest="200" Aspect="AspectFit" HorizontalOptions="Center" />
+                        <!-- Text for Question or Answer -->
+                        <Label Text="{Binding CardText}" 
+                               FontSize="24" 
+                               HorizontalOptions="Center" 
+                               TextColor="Black" />
+                    </StackLayout>
+                    <!-- Tap gesture to trigger the flip animation -->
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnCardTapped" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </StackLayout>
+        </Frame>
+
+        <!-- Navigation Buttons -->
+        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+            <Button Text="Previous" Command="{Binding PreviousFlashcardCommand}" />
+            <Button Text="Next" Command="{Binding NextFlashcardCommand}" />
+            <Button Text="Randomize" Command="{Binding RandomizeCommand}" BackgroundColor="Orange" TextColor="White"/>
+        </StackLayout>
+    </Grid>
 </ContentPage>

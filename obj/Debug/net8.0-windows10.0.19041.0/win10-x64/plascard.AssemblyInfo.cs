@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("plascard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0a58699ed3fc1e3b99dd80b9309f1bd2a5a600de")]
 [assembly: System.Reflection.AssemblyProductAttribute("plascard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("plascard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
